@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!–– Dette er et sammendrag av kapitell 4––>
   <head>
     <meta charset="utf-8">
     <title>Sammendrag av kap 4</title>
@@ -51,20 +52,21 @@
             </tr>
           </table>
   <h2>Lydfil</h2>
-    <audio controls> 2 <source src="lydfiler/lydfil.mp3" type="audio/mpeg">
-         3 Din nettleser støtter ikke audio-elementet. 4 </audio>
+    <audio controls>  <source src="lydfiler/lydfil.mp3" type="audio/mpeg">
+          Din nettleser støtter ikke audio-elementet.  </audio>
          <p>Meningen er at lydfilen ikke skal fungere, den er bare der for </br>
             å vise hvordan det hadde sett ut med en lydfil i nettleseren.</p>
    <h2>Filstruktur</h2>
-    <img src="" alt="">
+    <img src="http://gdurl.com/l7mk" alt="Filstrukturen vår" width="800">
     <p>Her ser du et bilde av vår filstruktur på GitHub, vi lager en mappe </br>
        for vær store innlevering vi har. Ellers går sammendragene i sammendragsmappa </br>
        Grunnen for at vi har en mappe til hver av innleveringene er at vi av og til</br>
       legger inn uferdige versjoner av inneleveringene så vi kan se på dem også.</p>
-   <h2>Skjema</h2>  
+   <h2>Skjema</h2>
    <form method="GET">
-     2 Ditt navn 3 <input type="text" name="dittnavn">  Hva er din favoritttopping på pizza?
-     <input type="text" name="favoritttopping">  <input type="submit" name="sendinn" value="Send inn">
+      Ditt navn  <input type="text" name="dittnavn"></br>
+      Hva er din favoritttopping på pizza? <input type="text" name="favoritttopping">
+      <input type="submit" name="sendinn" value="Send inn">
    </form>
 
 </body>
