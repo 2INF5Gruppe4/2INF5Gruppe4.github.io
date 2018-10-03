@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sammendrag av kap 4</title>
+  </head>
+  <body bgcolor="#ece6de">
+    <h1><font face="arial">Sammendrag av kapittel 4</h1>
+      <p><a href="~/HTMLFiler/index.html">Tilbake til index</a></p>
+      <p><font face="arial"> <ul>
+        <li>Flere datamaskiner koblet sammen utgjør et enkelt nettverk.</li>
+        <li>En klient er ein datamaskin som ber om tilgang til informasjon </br>
+        som ligger på en tjener. En tjener er også en datamaskin.</li>
+        <li>Internett er et nettverk av nettverk. All informasjon </br>
+        som sendes over Internett, sendes fra en datamaskin til en annen.</br></li>
+        <li>Informasjon som sendes fra en tjener til en klient, deles opp</br>
+          i mindre pakker som sendes hver for seg. For at klienten skal </br>
+        klare å sette sammen disse pakkene på riktig måte, er det viktig at</br>
+        tjeneren følger proto-koller, det vil si standarder for sending av</br>
+        informasjon.</li>
+        <li>Internettprotokollen (IP) er ansvarlig for kommunikasjon mellom </br>
+          datamaskiner, og gir alle maskiner en unik IP-adresse.</li>
+        <li>En IP-adresse har ofte også et tilhørende domenenavn.
+         Et domenenavn som www.aschehoug.no gjør det lettere å finne fram </br>
+         til en nettside.</li>
+         <li>Din lokale datamaskin har IP-adressen 127.0.0.1 og domenenavnet localhost.</li>
+         <li>Hypertext Transfer Protocol (HTTP) sørger for at nettlesere (hos klienter) </br>
+           kan kommunisere med tjenere.</li>
+          <li>Transmission Control Protocol (TCP) er ansvarlig for sending av informasjon
+            (pakker) mellom maskiner.</br></li>
+      </ul>
+    <h2><font face="arial"> Hva er internett?</h2>
+      <p>Legger her ved en video som demonstrer hvordan internettet fungerer. </br>
+         Selv om bildekvaliteten kanskje er litt utdatert kan man fortsatt lære </br>
+         noe av den.</p>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/7_LPdttKXPc"
+         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+         <h2>HTTP Resultater:</h2>
+         <table border="1">
+           <tr>
+            <th>Resultat</th>
+            <th>Betydning</th>
+          </tr>
+          <tr>
+              <td>200</td>
+              <td>OK</td>
+            </tr>
+            <tr>
+              <td>404</td>
+              <td>Page not Found</td>
+            </tr>
+          </table>
+  <h2>Lydfil</h2>
+    <audio controls> 2 <source src="lydfiler/lydfil.mp3" type="audio/mpeg">
+         3 Din nettleser støtter ikke audio-elementet. 4 </audio>
+         <p>Meningen er at lydfilen ikke skal fungere, den er bare der for </br>
+            å vise hvordan det hadde sett ut med en lydfil i nettleseren.</p>
+   <h2>Filstruktur</h2>
+    <img src="" alt="">
+    <p>Her ser du et bilde av vår filstruktur på GitHub, vi lager en mappe </br>
+       for vær store innlevering vi har. Ellers går sammendragene i sammendragsmappa </br>
+       Grunnen for at vi har en mappe til hver av innleveringene er at vi av og til</br>
+      legger inn uferdige versjoner av inneleveringene så vi kan se på dem også.</p>
+   <h2>Skjema</h2>  
+   <form method="GET">
+     2 Ditt navn 3 <input type="text" name="dittnavn">  Hva er din favoritttopping på pizza?
+     <input type="text" name="favoritttopping">  <input type="submit" name="sendinn" value="Send inn">
+   </form>
+
+</body>
+</html>
