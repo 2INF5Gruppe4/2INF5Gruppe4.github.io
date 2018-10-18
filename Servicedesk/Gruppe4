@@ -1,0 +1,75 @@
+
+<! doctype html>
+<html>
+<body bgcolor="#ece6de">
+<head>
+<title> Hvordan publisere på GitHub </title>
+<meta charset="utf-8">
+</head>
+<body>
+<h1 id="H1"> <font face="arial">Hvordan publisere projektet ditt på GitHub </h1>
+      <p>Dette er en kjapp veiledning som viser hvordan man publiserer filer på GitHub</p>
+      <p>
+         <a href="/2INF5Gruppe4.github.io/index.html">Tilbake til index</a>
+        <table border="1">
+          <th>Snarveier</th>
+        <tr><td><a href="#S1">Steg 1 - Logg inn</a> </td></tr>
+        <tr><td><a href="#S2">Steg 2 - Lage repository</a></td></tr>
+        <tr><td> <a href="#S3">Steg 3 - Lage ny branch</a></td></tr>
+        <tr><td> <a href="#S4">Steg 4 - Bytte hoved-branch</a></td></tr>
+        <tr><td> <a href="#S5">Steg 5 - Lage en mappe</a></td></tr>
+        <tr><td> <a href="#S6">Steg 6 - Laste opp en fil</a></td></tr>
+        </table>
+        </p>
+  <h2 id="S1"> <font face="arial">STEG 1, LOGG INN: </h2>
+    <img src="https://saaswebsites.com/wp-content/uploads/2016/06/login-github-900x516.png" height=""width="800" alt="Innloggings siden til github" border="1">
+    <p> <font face="arial">Her skriver du inn brukernavnet og passordet ditt, hvis du ikke har konto må du trykke </br>
+        på "sign up" og lage en konto før du går videre. </p>
+  <h2 id="S2"> <font face="arial">STEG 2, LAGE REPOSITORY </h2>
+    <h3> <font face="arial">Komme seg inn till opprettings-siden </h3>
+      <img src="http://gdurl.com/kG4C" height="" width="800" alt="Hvor du skal trykke for å starte opprettelsen av nytt repository" border="1">
+      <p> <font face="arial">Denne knappen må du trykke på for å kunne komme deg videre </p>
+    <h3> <font face="arial">Opprette repository </h3>
+      <img src="http://gdurl.com/Nhtn" height="" width="800"  alt="Hvor du skal være for å opprette repository" border="1">
+      <p> - <font face="arial">Her skriver du inn navnet du vil kallet repositoryet ditt, gi det også eventuelt </br>
+            en beskrivelse slik at besøkerne finner ut hva de kan finne her. </br>
+          - Huk av for PUBLIC slik at denne kan bli funnet av alle, enten via GitHubs sider
+            eller de du deler linken med. Huk også av for README. </p>
+  <h2 id="S3"> <font face="arial">STEG 3, LAGE NY BRANCH </h2>
+    <img src="http://gdurl.com/udwH" alt="På dette bilde viser vi hvor du skal trykke for å opprette ny branch" height="" width="800" border="1">
+    <p><font face="arial"> Nå trykker du på "branch", og skriver inn navnet til den nye branchen din etterpå </br>
+        trykker du Enter. Dette gjør vi slik at vi slipper å legge alt ut i "master" branchen </p>
+  <h2 id="S4"> <font face="arial">STEG 4, BYTTE HOVED-BRANCH </h2>
+    <h3> <font face="arial">Komme seg inn til instillingene </h3>
+      <img src="http://gdurl.com/bLTi" alt="Her sirkles det ut hvor man skal trykke for å komme videre" height="" width="800" border="1">
+      <p> <font face="arial">Her skal man trykke på "Settings" for å komme seg inn til innstillings-siden. Slik at </br>
+          man kan fortsette med å bytte hoved-branch til å legge ut filer i. </p>
+    <h3> <font face="arial">Velge "Branch instillinger" </h3>
+      <img src="http://gdurl.com/lK_i" alt="Her skal du trykke for å komme inn til "Branch" innstillingene" height="" width="800" border="1">
+      <p> <font face="arial">Her skal du trykke for å komme inn til innstillingene for å tilpasse hoved-branch. </p>
+    <h3> Velge hoved-branch </h3>
+      <img src="http://gdurl.com/hSUK" alt="Her velger du hoved-branch" width="800" height="" border="1">
+      <p> <font face="arial">Her trykker du på den branchen du vil skal være den du legger filer ut i hvis </br>
+                             du ikke velger at du skal gjøre noe annet.</br>
+                             (Husk å trykke på "Update")</p>
+  <h2 id="S5"><font face="arial">STEG 5, LAGE MAPPE</h2>
+    <h3> <font face="arial">Returnere til repositoryet</h3>
+      <img src="http://gdurl.com/1cO6" alt="Her skal du trykke for å returnere til repositoryet" width="800" height="" border="1">
+      <p> <font face="arial">Her skal du trykke for å returnere til repositoryet ditt.</p>
+      <h3> <font face="arial">Hvordan opprette mappe </h3>
+        <img src="http://gdurl.com/TYOy" alt="Hvor trykke for å opprette mappe" width="800" border="1">
+        <p><font face="arial">Nå skal du trykke på "Create new file for å starte oppretningen av en mappe"</p>
+      <h3><font face="arial">Lage mappen</h3>
+        <img src="http://gdurl.com/7X2V" alt="Hvordan opprette mappen" width="800" border="1">
+        <p><font face="arial"> Her skriver du inn &lt;&lt;Mappenavn&gt;&gt;/&lt;&lt;Filnavn&gt;&gt; før du skriver inn koden til filen du vil opprette.</br>
+                               Etterpå skroller du nedover på siden før du trykker på "Commit new file"</p>
+  <h2 id="S6"><font face="arial">STEG 6, LASTE OPP EN FIL</h2>
+    <h3> <font face="arial">Hvilken opplastningsmåte? </h3>
+      <img src="http://gdurl.com/QU8L" alt="Disse to er de letteste å bruke under opplastning" width="800" height="" border="1">
+      <p> <font face="arial">Her velger du hvordan du skal laste opp fila de, her skal vi lett forklare forskjellen </br>
+                             - Create new file: Her begynner du fra scratch å skrive inn koden du skal laste opp </br>
+                             - Upload files: Her laster du opp filer som du allerede har laget, uten å skrive dem på ny </br>
+                             (PS: du kan alltids redigere fila selvom den ligger ute på GitHub) </p>
+           <a href="#H1">Gå til toppen av siden</a>
+                </body>
+                </html>
