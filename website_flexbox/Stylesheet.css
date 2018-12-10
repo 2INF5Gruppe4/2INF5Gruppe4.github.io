@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #909090;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+.innpakning {
+   width: 800px; /* innpakningens bredde */
+   background-color: #404040; /* en mørk gråfarge */
+   margin: auto; /* like stor høyre- og venstremarg */
+   display: flex; /* angir at vi vil bruke flexbox */
+   flex-direction: column; /* plasserer bokser i en kolonne */
+   }
+.topptekst {
+   height: 120px; /* overskrift-/toppteksthøyde */
+   background-color: #909090; /* en lys gråfarge */
+   padding: 5px; /* avstand mellom bokskant og innhold */
+   margin: 5px; /* luft rundt overskrift-/topptekstboks */
+ }
+.meny {
+   background-color: #f04605; /* oransje farge */
+   padding: 5px; /* avstand mellom bokskant og innhold */
+   margin: 5px; /* luft rundt menyboks */
+   }
+.innhold {
+   background-color: #909090; /* en lys gråfarge */
+   padding: 5px; /* avstand mellom bokskant og innhold */
+   margin: 5px; /* luft rundt innholdsboks */
+     }
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 4px;
+     }
+     /* Fire like store kolonner på siden av hverandre */
+.kolonne {
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+}
+
+.kolonne img {
+   margin-top: 8px;
+   vertical-align: middle;
+}
+
+/* Responsivt layout - fire kolonner kan gjøres om til to */
+@media (max-width: 800px) {
+    .kolonne {
+        flex: 50%;
+        max-width: 50%;
+        vertical-align: middle;
+    position: relative;
+    }
+}
+
+/* Responsive layout - Får kolonnene til å gå over hverandre hvis displayet er lite */
+@media (max-width: 600px) {
+    .kolonne {
+        flex: 100%;
+        max-width: 100%;
+        vertical-align: middle;
+    position: relative;
+    }
+}
+/* Bunntekst */
+.bunntxt {
+   background-color: #404040; /* en lys gråfarge */
+   padding: 5px; /* avstand mellom bokskant og innhold */
+   margin: 5px; /* luft rundt innholdsboks */
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  text-align: center;
+
+     }
